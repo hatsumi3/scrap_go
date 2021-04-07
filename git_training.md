@@ -41,9 +41,15 @@
 
 ## ch4
 
-- ブランチAの内容を取り込み
+- ブランチAの内容を取り込んだらコンフリクト
     `git merge <branch nameA>`
+    `conflict!!! -> fix conflict file`
+    `git add <fixed file>`
+    `git commit -m <message>`
+- mergeでコンフリクト
+    `git merge --abort`
 
+## ch5000
 
 ## 参考URL
 
