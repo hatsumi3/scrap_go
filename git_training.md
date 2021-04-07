@@ -36,8 +36,14 @@
 
 ## ch3
 
-- ブランチへ移動
-    `git checkout <branch name>`
+- ブランチAの内容を取り込み
+    `git merge <branch nameA>`
+
+## ch4
+
+- ブランチAの内容を取り込み
+    `git merge <branch nameA>`
+
 
 ## 参考URL
 
