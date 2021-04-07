@@ -34,6 +34,10 @@
 - ブランチ作成して強制移動
     `git checkout -f <branch name>`
 
+## ch3
+
+- ブランチへ移動
+    `git checkout <branch name>`
 
 ## 参考URL
 
