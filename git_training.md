@@ -87,6 +87,18 @@
 なお、新しいコマンドのため、変更可能性あり。
 gitをupdateする必要もあり。
 
+- 作業ディレクトリ上の編集内容を取り消す。
+  `git restore --worktree <filename>`
+  `git checkout <filename>`
+  `git reset --hard HEAD`
+
+## ch9
+
+- 変更を確認する
+  `git diff <before commitid> <after commitid>`
+- 直前のコミットとの差分
+  `git diff`
+
 ## 参考URL
 
 - エンジニアスタイル
