@@ -56,11 +56,36 @@
 
 ## ch6
 
-- 特定の地点までファイルを巻き戻す
-  - コミットだけ
-    `git reset --soft HEAD@{1}`
-  - コミットだけ
-  - コミットだけ
+特定の地点までファイルを巻き戻す
+
+- コミットだけ
+  `git reset --soft HEAD@{1}`
+- コミット＋ステージング
+  `git reset --mixed HEAD@{1}`
+- コミット＋ステージング＋変更内容
+  `git reset --hard HEAD@{1}`
+
+## ch7
+
+- 操作履歴を確認する。
+  `git reflog`
+- 確認して戻したい場所を指定する
+  `git reset --hard HEAD@{1}`
+
+## ch8
+
+`git checkout <???>`は意味が変わる。
+それぞれの専用コマンドがある
+
+- ファイルの復元
+  `git checkout <filename>`
+  `git restore`
+- ブランチの切り替え
+  `git checkout <dirname>`
+  `git switch`
+
+なお、新しいコマンドのため、変更可能性あり。
+gitをupdateする必要もあり。
 
 ## 参考URL
 
