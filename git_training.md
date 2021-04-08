@@ -99,6 +99,14 @@ gitをupdateする必要もあり。
 - 直前のコミットとの差分
   `git diff`
 
+## ch10
+
+- 部分的にコミットを取得する。取得後、コミットされる
+  `git cherry-pick <commit id>`
+- 部分的にコミットを取得する。取得のみでコミットしない
+  `git cherry-pick -n <commit id>`
+
+
 ## 参考URL
 
 - エンジニアスタイル
