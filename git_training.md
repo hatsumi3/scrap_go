@@ -130,6 +130,24 @@ gitをupdateする必要もあり。
 - 検索したい文字列を含むフォルダ名
   `git grep -l <word>`
 
+## ch13
+
+誰が行を変更したかを確認する
+
+- 変更を確認したいファイル名
+  `git blame <filename>`
+
+## ch14
+
+- リモートリポジトリを表示する
+  `git remote`
+- リモートリポジトリ一覧を表示する
+  `git remote -v`
+- リモートリポジトリを追加する
+  `git remote add <reponame> <repo url>`
+- リモートリポジトリを削除する
+  `git remote rm <repo name>`
+
 ## 参考URL
 
 - エンジニアスタイル
