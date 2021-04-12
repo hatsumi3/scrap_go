@@ -106,6 +106,47 @@ gitをupdateする必要もあり。
 - 部分的にコミットを取得する。取得のみでコミットしない
   `git cherry-pick -n <commit id>`
 
+## ch11
+
+- 編集中のファイル（スタッシュ）を保存する
+  `git stash save`
+- スタッシュの一覧をみる
+  `git stash list`
+- スタッシュを復活させる
+  `git stash apply stash@{0}`
+- スタッシュを削除する
+  `git stash drop stash@{0}`
+- スタッシュを復活、削除する
+  `git stash pop stash@{0}`
+
+## ch12
+
+リポジトリ内の検索
+
+- 検索したい文字列
+  `git grep <words>`
+- 検索したい文字列 リポジトリ内
+  `git grep <words> <commit>`
+- 検索したい文字列を含むフォルダ名
+  `git grep -l <word>`
+
+## ch13
+
+誰が行を変更したかを確認する
+
+- 変更を確認したいファイル名
+  `git blame <filename>`
+
+## ch14
+
+- リモートリポジトリを表示する
+  `git remote`
+- リモートリポジトリ一覧を表示する
+  `git remote -v`
+- リモートリポジトリを追加する
+  `git remote add <reponame> <repo url>`
+- リモートリポジトリを削除する
+  `git remote rm <repo name>`
 
 ## 参考URL
 
